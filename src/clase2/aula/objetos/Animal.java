@@ -22,10 +22,8 @@ public class Animal {
         this.nombre = nombre;
     }
             
-    public static void main(String[] args) { 
-    }
         public void hacerRuido(){
-            
+            System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzz");
         }
 
     public int getNumeroPatas() {
