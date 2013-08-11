@@ -1,5 +1,5 @@
 
-package clase2.aula.objetos;
+package clase2.aula.zoologico;
 public class Animal {
     private int numeroPatas;
     private String especie;
@@ -41,8 +41,11 @@ public class Animal {
     public void setEspecie(String especie) {
         this.especie = especie;
     }
-        
-        
+    void printNombrePatas(){
+
+        System.out.println(this.getNombre()+"---"+this.getNumeroPatas());
+}
+               
 }
   
 
